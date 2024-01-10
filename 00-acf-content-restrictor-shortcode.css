@@ -1,0 +1,43 @@
+.jlmr-acf-rcp-mensaje {
+    background-color: var(--form-fondo-focus);
+    border: 1px solid var(--form-borde-inicial);
+    padding: 20px;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    color: var(--texto-normal);
+}
+
+.jlmr-acf-rcp-mensaje h3 {
+    color: var(--titulos-normal);
+    margin-top: 0;
+    text-align: center;
+}
+
+.jlmr-acf-rcp-mensaje p {
+    margin-bottom: 0;
+}
+
+.jlmr-acf-rcp-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jlmr-acf-rcp-button-style {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    background-color: var(--boton-fondo-normal);
+    color: var(--boton-texto-normal);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.jlmr-acf-rcp-button-style:hover {
+    background-color: var(--boton-fondo-hover);
+    color: var(--boton-texto-hover);
+}
